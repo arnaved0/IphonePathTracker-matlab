@@ -1,6 +1,6 @@
 addpath lib
 
-% Generate 20 s of synthetic IMU as if you walked straight and turned
+
 Fs = 50; dt = 1/Fs; N = 20*Fs;
 acc = zeros(N,3); gyr = zeros(N,3); mag = repmat([30 0 0], N,1);
 % gravity + small noise
