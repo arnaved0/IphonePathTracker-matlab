@@ -11,7 +11,7 @@ for k=1:N
     if t>8 && t<12, gyr(k,3) = 15*pi/180/4; end % 15° over 4 s
 end
 
-% run fusion + fake steps every ~0.7 s
+
 q = [1;0;0;0]; state = [];
 pos = [0;0]; trail = pos;
 step_len = 0.7; t_next = 0.7;
