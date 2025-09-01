@@ -1,6 +1,5 @@
 function out = quat_utils(cmd, varargin)
-% Tiny quaternion helper toolbox (unit quats, scalar-first).
-% cmd: 'mul','norm','rotm','fromSmallAngle','rotate','yaw'
+
 switch cmd
     case 'mul'  % q = mul(q1,q2)
         q1 = varargin{1}(:)'; q2 = varargin{2}(:)';
